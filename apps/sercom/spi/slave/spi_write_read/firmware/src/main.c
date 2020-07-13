@@ -227,12 +227,12 @@ int main ( void )
                     memcpy(&APP_MemoryBuffer[appData.memAddr], &APP_RxData[3], appData.nBytesToWrite);
                 }
                 
-                appData.status.busy = 0;
-                
-                /* Indicate to SPI Master that slave is ready for data transfer */
-                SERCOM1_SPI_Ready();
+                appData.status.busy = 0;                               
                 
                 appData.state = APP_STATE_IDLE; 
+				
+				/* Indicate to SPI Master that slave is ready for data transfer */
+                SERCOM1_SPI_Ready();
                                 
                 break;
                             
