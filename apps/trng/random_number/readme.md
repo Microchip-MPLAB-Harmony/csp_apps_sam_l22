@@ -55,7 +55,8 @@ The following table shows the target hardware for the application projects.
     ![output](images/output_trng_random_number_2.png)
 
 Following table provides the switch names:
+
 | Board      | Switch Name |
 | ---------- | ---------|
 | [SAM L22 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML22-XPRO-B) | SW0 |
-||||
+|||
