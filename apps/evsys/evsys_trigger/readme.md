@@ -45,5 +45,5 @@ Following table provides the LED and switch names:
 
 | Board      | Switch Name | LED Name |
 | ---------- | ---------| ------------|
-| [SAM L22 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML22-XPRO-B)
-||||
+| [SAM L22 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAML22-XPRO-B)| SW0 | LED0 |
+|||
