@@ -51,7 +51,7 @@ The following table shows the target hardware for the application projects.
 
     ![output_1](images/output_pm_wakeup_rtc_1.png)
 
-6. Select 'a' or 'b' to enter the low power mode (LED is turned off when the device enters low power mode)
+6. Select 'a' or 'b' or 'c' to enter the low power mode (LED is turned off when the device enters low power mode)
 7. When the device wakes up on RTC compare match interrupt, the LED starts blinking and the console displays the following
 message
 
