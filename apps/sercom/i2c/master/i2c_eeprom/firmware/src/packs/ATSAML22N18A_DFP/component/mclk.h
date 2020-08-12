@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2019-11-24T16:22:29Z */
+/* file generated from device description version 2020-08-06T15:10:46Z */
 #ifndef _SAML22_MCLK_COMPONENT_H_
 #define _SAML22_MCLK_COMPONENT_H_
 
