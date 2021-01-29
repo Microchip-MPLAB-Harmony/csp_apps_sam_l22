@@ -40,6 +40,10 @@
 
 #include "plib_clock.h"
 #include "device.h"
+#include "interrupts.h"
+
+
+
 
 static void OSCCTRL_Initialize(void)
 {
@@ -139,3 +143,6 @@ void CLOCK_Initialize (void)
 
 
 }
+
+
+
