@@ -50,12 +50,13 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
+#include "peripheral/evsys/plib_evsys.h"
+#include "peripheral/pm/plib_pm.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/systick/plib_systick.h"
 #include "peripheral/wdt/plib_wdt.h"
-#include "peripheral/pm/plib_pm.h"
 #include "peripheral/sercom/usart/plib_sercom4_usart.h"
 #include "peripheral/eic/plib_eic.h"
 
@@ -66,6 +67,9 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* CPU clock frequency */
+#define CPU_CLOCK_FREQUENCY 32000000
 
 // *****************************************************************************
 // *****************************************************************************
