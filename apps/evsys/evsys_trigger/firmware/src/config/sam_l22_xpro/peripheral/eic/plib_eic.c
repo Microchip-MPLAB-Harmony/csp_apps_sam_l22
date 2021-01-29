@@ -54,6 +54,7 @@
 */
 
 #include "plib_eic.h"
+#include "interrupts.h"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -67,7 +68,7 @@ void EIC_Initialize (void)
 {
     /* Reset all registers in the EIC module to their initial state and
 	   EIC will be disabled. */
-    EIC_REGS->EIC_CTRLA |= EIC_CTRLA_SWRST_Msk;
+    EIC_REGS->EIC_CTRLA |= (uint8_t)EIC_CTRLA_SWRST_Msk;
 
     while((EIC_REGS->EIC_SYNCBUSY & EIC_SYNCBUSY_SWRST_Msk) == EIC_SYNCBUSY_SWRST_Msk)
     {
@@ -75,7 +76,7 @@ void EIC_Initialize (void)
     }
 
     /* EIC is clocked by ultra low power clock */
-    EIC_REGS->EIC_CTRLA |= EIC_CTRLA_CKSEL_Msk;
+    EIC_REGS->EIC_CTRLA |= (uint8_t)EIC_CTRLA_CKSEL_Msk;
 
     /* NMI Control register */
 
@@ -101,15 +102,15 @@ void EIC_Initialize (void)
     
 
     /* External Interrupt Asynchronous Mode enable */
-    EIC_REGS->EIC_ASYNCH = 0x200;
+    EIC_REGS->EIC_ASYNCH = 0x200U;
 
 
     /* Event Control Output enable */
-    EIC_REGS->EIC_EVCTRL = 0x200;
+    EIC_REGS->EIC_EVCTRL = 0x200U;
 
 
     /* Enable the EIC */
-    EIC_REGS->EIC_CTRLA |= EIC_CTRLA_ENABLE_Msk;
+    EIC_REGS->EIC_CTRLA |= (uint8_t)EIC_CTRLA_ENABLE_Msk;
 
     while((EIC_REGS->EIC_SYNCBUSY & EIC_SYNCBUSY_ENABLE_Msk) == EIC_SYNCBUSY_ENABLE_Msk)
     {
