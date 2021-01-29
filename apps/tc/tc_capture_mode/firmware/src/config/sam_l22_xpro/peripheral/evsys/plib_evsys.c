@@ -39,14 +39,15 @@
 *******************************************************************************/
 
 #include "plib_evsys.h"
+#include "interrupts.h"
 
 
 void EVSYS_Initialize( void )
 {    /*Event Channel User Configuration*/
-    EVSYS_REGS->EVSYS_USER[16] = EVSYS_USER_CHANNEL(0x1);
+    EVSYS_REGS->EVSYS_USER[16] = EVSYS_USER_CHANNEL(0x1UL);
 
     /* Event Channel 0 Configuration */
-    EVSYS_REGS->EVSYS_CHANNEL[0] = EVSYS_CHANNEL_EVGEN(25) | EVSYS_CHANNEL_PATH(2) | EVSYS_CHANNEL_EDGSEL(0) \
+    EVSYS_REGS->EVSYS_CHANNEL[0] = EVSYS_CHANNEL_EVGEN(25UL) | EVSYS_CHANNEL_PATH(2UL) | EVSYS_CHANNEL_EDGSEL(0UL) \
                                      ;
 
 }
