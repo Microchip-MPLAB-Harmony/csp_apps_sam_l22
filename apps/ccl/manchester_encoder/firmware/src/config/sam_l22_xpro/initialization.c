@@ -132,9 +132,9 @@ void SYS_Initialize ( void* data )
 
     NVMCTRL_Initialize( );
 
-    EVSYS_Initialize();
-
     SERCOM0_SPI_Initialize();
+
+    EVSYS_Initialize();
 
 
     CCL_Initialize();
