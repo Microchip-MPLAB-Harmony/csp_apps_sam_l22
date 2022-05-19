@@ -434,6 +434,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: 'false'}
+  - type: String
+    attributes: {id: PIN_10_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A10:PA25'}
   - type: Integer
     attributes: {id: PIN_10_GROUP}
     children:
@@ -455,6 +462,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '25'}
+  - type: String
+    attributes: {id: PIN_11_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A11:PA24'}
   - type: Integer
     attributes: {id: PIN_11_GROUP}
     children:
@@ -476,6 +490,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '24'}
+  - type: String
+    attributes: {id: PIN_12_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B1:PA01'}
   - type: Integer
     attributes: {id: PIN_12_GROUP}
     children:
@@ -497,6 +518,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '1'}
+  - type: String
+    attributes: {id: PIN_13_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B2:PB01'}
   - type: Integer
     attributes: {id: PIN_13_GROUP}
     children:
@@ -518,6 +546,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '1'}
+  - type: String
+    attributes: {id: PIN_14_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B3:PB02'}
   - type: Integer
     attributes: {id: PIN_14_GROUP}
     children:
@@ -539,6 +574,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '2'}
+  - type: String
+    attributes: {id: PIN_15_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B4:PA31'}
   - type: Integer
     attributes: {id: PIN_15_GROUP}
     children:
@@ -560,6 +602,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '31'}
+  - type: String
+    attributes: {id: PIN_16_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B5:PA30'}
   - type: Integer
     attributes: {id: PIN_16_GROUP}
     children:
@@ -581,6 +630,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '30'}
+  - type: String
+    attributes: {id: PIN_17_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B6:PC28'}
   - type: Integer
     attributes: {id: PIN_17_GROUP}
     children:
@@ -602,6 +658,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '28'}
+  - type: String
+    attributes: {id: PIN_18_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B7:PC26'}
   - type: Integer
     attributes: {id: PIN_18_GROUP}
     children:
@@ -623,6 +686,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '26'}
+  - type: String
+    attributes: {id: PIN_19_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B8:PC25'}
   - type: String
     attributes: {id: PIN_19_FUNCTION_TYPE}
     children:
@@ -665,6 +735,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '25'}
+  - type: String
+    attributes: {id: PIN_1_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A1:PA00'}
   - type: Integer
     attributes: {id: PIN_1_GROUP}
     children:
@@ -686,6 +763,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: PIN_20_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B9:PC24'}
   - type: String
     attributes: {id: PIN_20_FUNCTION_TYPE}
     children:
@@ -728,6 +812,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '24'}
+  - type: String
+    attributes: {id: PIN_21_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B10:PA23'}
   - type: Integer
     attributes: {id: PIN_21_GROUP}
     children:
@@ -749,6 +840,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '23'}
+  - type: String
+    attributes: {id: PIN_22_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'B11:PA22'}
   - type: Integer
     attributes: {id: PIN_22_GROUP}
     children:
@@ -770,6 +868,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '22'}
+  - type: String
+    attributes: {id: PIN_23_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C1:PC02'}
   - type: Integer
     attributes: {id: PIN_23_GROUP}
     children:
@@ -791,6 +896,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '2'}
+  - type: String
+    attributes: {id: PIN_24_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C2:PC01'}
   - type: Integer
     attributes: {id: PIN_24_GROUP}
     children:
@@ -812,6 +924,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '1'}
+  - type: String
+    attributes: {id: PIN_25_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C3:PB03'}
   - type: Integer
     attributes: {id: PIN_25_GROUP}
     children:
@@ -833,6 +952,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '3'}
+  - type: String
+    attributes: {id: PIN_26_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C4:PB31'}
   - type: Integer
     attributes: {id: PIN_26_GROUP}
     children:
@@ -854,6 +980,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '31'}
+  - type: String
+    attributes: {id: PIN_27_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C5:RESET_N'}
   - type: Integer
     attributes: {id: PIN_27_GROUP}
     children:
@@ -875,6 +1008,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_28_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C6:GNDIO'}
   - type: Integer
     attributes: {id: PIN_28_GROUP}
     children:
@@ -896,6 +1036,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_29_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C8:PB25'}
   - type: Integer
     attributes: {id: PIN_29_GROUP}
     children:
@@ -917,6 +1064,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '25'}
+  - type: String
+    attributes: {id: PIN_2_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A2:PB00'}
   - type: Integer
     attributes: {id: PIN_2_GROUP}
     children:
@@ -938,6 +1092,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: PIN_30_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C9:PB24'}
   - type: Integer
     attributes: {id: PIN_30_GROUP}
     children:
@@ -959,6 +1120,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '24'}
+  - type: String
+    attributes: {id: PIN_31_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C10:PA21'}
   - type: Integer
     attributes: {id: PIN_31_GROUP}
     children:
@@ -980,6 +1148,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '21'}
+  - type: String
+    attributes: {id: PIN_32_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'C11:PA20'}
   - type: Integer
     attributes: {id: PIN_32_GROUP}
     children:
@@ -1001,6 +1176,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '20'}
+  - type: String
+    attributes: {id: PIN_33_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D1:PA02'}
   - type: String
     attributes: {id: PIN_33_FUNCTION_TYPE}
     children:
@@ -1043,6 +1225,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '2'}
+  - type: String
+    attributes: {id: PIN_34_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D2:PC03'}
   - type: Integer
     attributes: {id: PIN_34_GROUP}
     children:
@@ -1064,6 +1253,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '3'}
+  - type: String
+    attributes: {id: PIN_35_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D3:PC00'}
   - type: Integer
     attributes: {id: PIN_35_GROUP}
     children:
@@ -1085,6 +1281,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: PIN_36_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D8:VDDIO'}
   - type: Integer
     attributes: {id: PIN_36_GROUP}
     children:
@@ -1106,6 +1309,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_37_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D9:PB21'}
   - type: Integer
     attributes: {id: PIN_37_GROUP}
     children:
@@ -1127,6 +1337,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '21'}
+  - type: String
+    attributes: {id: PIN_38_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D10:PB19'}
   - type: Integer
     attributes: {id: PIN_38_GROUP}
     children:
@@ -1148,6 +1365,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '19'}
+  - type: String
+    attributes: {id: PIN_39_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'D11:PB20'}
   - type: Integer
     attributes: {id: PIN_39_GROUP}
     children:
@@ -1169,6 +1393,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '20'}
+  - type: String
+    attributes: {id: PIN_3_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A3:PB30'}
   - type: Integer
     attributes: {id: PIN_3_GROUP}
     children:
@@ -1190,6 +1421,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '30'}
+  - type: String
+    attributes: {id: PIN_40_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'E1:PB04'}
   - type: Integer
     attributes: {id: PIN_40_GROUP}
     children:
@@ -1211,6 +1449,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '4'}
+  - type: String
+    attributes: {id: PIN_41_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'E2:PA03'}
   - type: Integer
     attributes: {id: PIN_41_GROUP}
     children:
@@ -1232,6 +1477,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '3'}
+  - type: String
+    attributes: {id: PIN_42_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'E3:GNDANA'}
   - type: Integer
     attributes: {id: PIN_42_GROUP}
     children:
@@ -1253,6 +1505,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_43_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'E10:PB17'}
   - type: Integer
     attributes: {id: PIN_43_GROUP}
     children:
@@ -1274,6 +1533,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '17'}
+  - type: String
+    attributes: {id: PIN_44_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'E11:PB18'}
   - type: Integer
     attributes: {id: PIN_44_GROUP}
     children:
@@ -1295,6 +1561,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '18'}
+  - type: String
+    attributes: {id: PIN_45_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'F1:PB06'}
   - type: Integer
     attributes: {id: PIN_45_GROUP}
     children:
@@ -1316,6 +1589,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '6'}
+  - type: String
+    attributes: {id: PIN_46_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'F2:PB05'}
   - type: Integer
     attributes: {id: PIN_46_GROUP}
     children:
@@ -1337,6 +1617,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '5'}
+  - type: String
+    attributes: {id: PIN_47_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'F3:VDDANA'}
   - type: Integer
     attributes: {id: PIN_47_GROUP}
     children:
@@ -1358,6 +1645,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_48_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'F10:PC21'}
   - type: Integer
     attributes: {id: PIN_48_GROUP}
     children:
@@ -1379,6 +1673,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '21'}
+  - type: String
+    attributes: {id: PIN_49_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'F11:PB16'}
   - type: Integer
     attributes: {id: PIN_49_GROUP}
     children:
@@ -1400,6 +1701,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '16'}
+  - type: String
+    attributes: {id: PIN_4_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A4:VSW'}
   - type: Integer
     attributes: {id: PIN_4_GROUP}
     children:
@@ -1421,6 +1729,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_50_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'G1:PB08'}
   - type: Integer
     attributes: {id: PIN_50_GROUP}
     children:
@@ -1442,6 +1757,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '8'}
+  - type: String
+    attributes: {id: PIN_51_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'G2:PB07'}
   - type: Integer
     attributes: {id: PIN_51_GROUP}
     children:
@@ -1463,6 +1785,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '7'}
+  - type: String
+    attributes: {id: PIN_52_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'G10:PC19'}
   - type: Integer
     attributes: {id: PIN_52_GROUP}
     children:
@@ -1484,6 +1813,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '19'}
+  - type: String
+    attributes: {id: PIN_53_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'G11:PC20'}
   - type: Integer
     attributes: {id: PIN_53_GROUP}
     children:
@@ -1505,6 +1841,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '20'}
+  - type: String
+    attributes: {id: PIN_54_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H1:PA04'}
   - type: Integer
     attributes: {id: PIN_54_GROUP}
     children:
@@ -1526,6 +1869,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '4'}
+  - type: String
+    attributes: {id: PIN_55_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H2:PB09'}
   - type: Integer
     attributes: {id: PIN_55_GROUP}
     children:
@@ -1547,6 +1897,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '9'}
+  - type: String
+    attributes: {id: PIN_56_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H3:PA05'}
   - type: Integer
     attributes: {id: PIN_56_GROUP}
     children:
@@ -1568,6 +1925,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '5'}
+  - type: String
+    attributes: {id: PIN_57_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H9:PA18'}
   - type: Integer
     attributes: {id: PIN_57_GROUP}
     children:
@@ -1589,6 +1953,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '18'}
+  - type: String
+    attributes: {id: PIN_58_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H10:PC17'}
   - type: Integer
     attributes: {id: PIN_58_GROUP}
     children:
@@ -1610,6 +1981,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '17'}
+  - type: String
+    attributes: {id: PIN_59_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'H11:PC18'}
   - type: Integer
     attributes: {id: PIN_59_GROUP}
     children:
@@ -1631,6 +2009,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '18'}
+  - type: String
+    attributes: {id: PIN_5_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A5:VDDCORE'}
   - type: Integer
     attributes: {id: PIN_5_GROUP}
     children:
@@ -1652,6 +2037,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_60_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J1:PA06'}
   - type: Integer
     attributes: {id: PIN_60_GROUP}
     children:
@@ -1673,6 +2065,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '6'}
+  - type: String
+    attributes: {id: PIN_61_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J2:PA07'}
   - type: Integer
     attributes: {id: PIN_61_GROUP}
     children:
@@ -1694,6 +2093,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '7'}
+  - type: String
+    attributes: {id: PIN_62_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J3:PC07'}
   - type: Integer
     attributes: {id: PIN_62_GROUP}
     children:
@@ -1715,6 +2121,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '7'}
+  - type: String
+    attributes: {id: PIN_63_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J4:PA10'}
   - type: Integer
     attributes: {id: PIN_63_GROUP}
     children:
@@ -1736,6 +2149,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '10'}
+  - type: String
+    attributes: {id: PIN_64_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J5:PC09'}
   - type: Integer
     attributes: {id: PIN_64_GROUP}
     children:
@@ -1757,6 +2177,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '9'}
+  - type: String
+    attributes: {id: PIN_65_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J8:PC14'}
   - type: Integer
     attributes: {id: PIN_65_GROUP}
     children:
@@ -1778,6 +2205,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '14'}
+  - type: String
+    attributes: {id: PIN_66_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J9:PA16'}
   - type: Integer
     attributes: {id: PIN_66_GROUP}
     children:
@@ -1799,6 +2233,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '16'}
+  - type: String
+    attributes: {id: PIN_67_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J10:PA19'}
   - type: Integer
     attributes: {id: PIN_67_GROUP}
     children:
@@ -1820,6 +2261,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '19'}
+  - type: String
+    attributes: {id: PIN_68_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'J11:PC16'}
   - type: Integer
     attributes: {id: PIN_68_GROUP}
     children:
@@ -1841,6 +2289,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '16'}
+  - type: String
+    attributes: {id: PIN_69_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K1:PC05'}
   - type: Integer
     attributes: {id: PIN_69_GROUP}
     children:
@@ -1862,6 +2317,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '5'}
+  - type: String
+    attributes: {id: PIN_6_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A6:PA27'}
   - type: Integer
     attributes: {id: PIN_6_GROUP}
     children:
@@ -1883,6 +2345,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '27'}
+  - type: String
+    attributes: {id: PIN_70_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K2:PC06'}
   - type: Integer
     attributes: {id: PIN_70_GROUP}
     children:
@@ -1904,6 +2373,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '6'}
+  - type: String
+    attributes: {id: PIN_71_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K3:PA11'}
   - type: Integer
     attributes: {id: PIN_71_GROUP}
     children:
@@ -1925,6 +2401,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '11'}
+  - type: String
+    attributes: {id: PIN_72_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K4:PC10'}
   - type: Integer
     attributes: {id: PIN_72_GROUP}
     children:
@@ -1946,6 +2429,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '10'}
+  - type: String
+    attributes: {id: PIN_73_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K5:PC12'}
   - type: Integer
     attributes: {id: PIN_73_GROUP}
     children:
@@ -1967,6 +2457,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '12'}
+  - type: String
+    attributes: {id: PIN_74_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K6:PB11'}
   - type: Integer
     attributes: {id: PIN_74_GROUP}
     children:
@@ -1988,6 +2485,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '11'}
+  - type: String
+    attributes: {id: PIN_75_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K7:PB12'}
   - type: Integer
     attributes: {id: PIN_75_GROUP}
     children:
@@ -2009,6 +2513,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '12'}
+  - type: String
+    attributes: {id: PIN_76_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K8:PB14'}
   - type: Integer
     attributes: {id: PIN_76_GROUP}
     children:
@@ -2030,6 +2541,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '14'}
+  - type: String
+    attributes: {id: PIN_77_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K9:PA12'}
   - type: Integer
     attributes: {id: PIN_77_GROUP}
     children:
@@ -2051,6 +2569,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '12'}
+  - type: String
+    attributes: {id: PIN_78_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K10:PA14'}
   - type: Integer
     attributes: {id: PIN_78_GROUP}
     children:
@@ -2072,6 +2597,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '14'}
+  - type: String
+    attributes: {id: PIN_79_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'K11:PA17'}
   - type: Integer
     attributes: {id: PIN_79_GROUP}
     children:
@@ -2100,6 +2632,13 @@ children:
       children:
       - type: User
         attributes: {value: Out}
+  - type: String
+    attributes: {id: PIN_7_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A7:PC27'}
   - type: String
     attributes: {id: PIN_7_FUNCTION_NAME}
     children:
@@ -2163,6 +2702,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '27'}
+  - type: String
+    attributes: {id: PIN_80_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L1:PA08'}
   - type: Integer
     attributes: {id: PIN_80_GROUP}
     children:
@@ -2184,6 +2730,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '8'}
+  - type: String
+    attributes: {id: PIN_81_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L2:PA09'}
   - type: Integer
     attributes: {id: PIN_81_GROUP}
     children:
@@ -2205,6 +2758,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '9'}
+  - type: String
+    attributes: {id: PIN_82_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L3:PC08'}
   - type: Integer
     attributes: {id: PIN_82_GROUP}
     children:
@@ -2226,6 +2786,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '8'}
+  - type: String
+    attributes: {id: PIN_83_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L4:PC11'}
   - type: Integer
     attributes: {id: PIN_83_GROUP}
     children:
@@ -2247,6 +2814,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '11'}
+  - type: String
+    attributes: {id: PIN_84_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L5:PC13'}
   - type: Integer
     attributes: {id: PIN_84_GROUP}
     children:
@@ -2268,6 +2842,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '13'}
+  - type: String
+    attributes: {id: PIN_85_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L6:VLCD'}
   - type: Integer
     attributes: {id: PIN_85_GROUP}
     children:
@@ -2289,6 +2870,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '-1'}
+  - type: String
+    attributes: {id: PIN_86_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L7:PB13'}
   - type: Integer
     attributes: {id: PIN_86_GROUP}
     children:
@@ -2310,6 +2898,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '13'}
+  - type: String
+    attributes: {id: PIN_87_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L8:PB15'}
   - type: Integer
     attributes: {id: PIN_87_GROUP}
     children:
@@ -2331,6 +2926,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '15'}
+  - type: String
+    attributes: {id: PIN_88_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L9:PC15'}
   - type: Integer
     attributes: {id: PIN_88_GROUP}
     children:
@@ -2352,6 +2954,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '15'}
+  - type: String
+    attributes: {id: PIN_89_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L10:PA13'}
   - type: Integer
     attributes: {id: PIN_89_GROUP}
     children:
@@ -2373,6 +2982,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '13'}
+  - type: String
+    attributes: {id: PIN_8_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A8:PB23'}
   - type: Integer
     attributes: {id: PIN_8_GROUP}
     children:
@@ -2394,6 +3010,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '23'}
+  - type: String
+    attributes: {id: PIN_90_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'L11:PA15'}
   - type: Integer
     attributes: {id: PIN_90_GROUP}
     children:
@@ -2415,6 +3038,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '15'}
+  - type: String
+    attributes: {id: PIN_9_EXPORT_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'A9:PB22'}
   - type: Integer
     attributes: {id: PIN_9_GROUP}
     children:
