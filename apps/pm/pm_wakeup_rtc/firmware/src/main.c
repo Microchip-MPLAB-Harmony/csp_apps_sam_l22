@@ -139,12 +139,14 @@ int main ( void )
             {
                 printf("\n\n\rConfiguring RTC Compare Match for wake up.......");
                 configure_alarm();
-                SYSTICK_TimerStop();
                 printf("\n\rEntering Standby Mode\r\n");
+                SYSTICK_DelayUs(1000);
+                SYSTICK_TimerStop();
                 LED_OFF();
                 PM_StandbyModeEnter();
-                printf("\n\rRTC Compare Match triggered waking up device from Standby mode");
                 SYSTICK_TimerStart();
+                SYSTICK_DelayUs(1000);
+                printf("\n\rRTC Compare Match triggered waking up device from Standby mode");
                 display_menu();
                 break;
             }
@@ -152,12 +154,14 @@ int main ( void )
             {
                 printf("\n\n\rConfiguring RTC Compare Match for wake up.......");
                 configure_alarm();
-                SYSTICK_TimerStop();
                 printf("\n\rEntering BACKUP Mode\r\n");
+                SYSTICK_DelayUs(1000);
+                SYSTICK_TimerStop();
                 LED_OFF();
                 PM_BackupModeEnter();
-                printf("\n\rRTC Compare Match triggered waking up device from Backup mode");
                 SYSTICK_TimerStart();
+                SYSTICK_DelayUs(1000);
+                printf("\n\rRTC Compare Match triggered waking up device from Backup mode");
                 display_menu();
                 break;
             }
