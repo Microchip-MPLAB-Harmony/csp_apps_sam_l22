@@ -70,7 +70,7 @@ enum
 
 uint8_t cmd = 0;
 
-void timeout (uintptr_t context)
+void systick_timeout (uintptr_t context)
 {
     LED_Toggle();    
 }
@@ -108,7 +108,7 @@ int main ( void )
     if(reset_cause == RSTC_RCAUSE_POR_Msk)
         printf("\n\n\rDevice exited from OFF mode\n");
     
-    SYSTICK_TimerCallbackSet(&timeout, (uintptr_t) NULL);
+    SYSTICK_TimerCallbackSet(&systick_timeout, (uintptr_t) NULL);
     SYSTICK_TimerStart();    
     
     display_menu();

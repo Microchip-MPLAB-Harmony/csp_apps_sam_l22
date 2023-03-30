@@ -68,7 +68,7 @@ uint8_t cmd = 0;
 // Section: Application Callback Functions
 // *****************************************************************************
 // *****************************************************************************
-void timeout (uintptr_t context)
+void systick_timeout (uintptr_t context)
 {
     LED_Toggle();    
 }
@@ -113,7 +113,7 @@ int main ( void )
     if(reset_cause_bkup == RSTC_BKUPEXIT_RTC_Msk)
         printf("\n\n\rDevice exited from Backup mode\n");
     
-    SYSTICK_TimerCallbackSet(&timeout, (uintptr_t) NULL);
+    SYSTICK_TimerCallbackSet(&systick_timeout, (uintptr_t) NULL);
     SYSTICK_TimerStart();
     RTC_Timer32InterruptEnable(RTC_TIMER32_INT_MASK_CMP0);
     
