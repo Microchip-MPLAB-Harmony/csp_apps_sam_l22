@@ -1,4 +1,4 @@
-<config configName="sam_l22_xpro" projectName="adc_dmac_sleepwalking_sam_l22_xpro" configVersion="1.1" device="ATSAML22N18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="sam_l22_xpro" projectName="adc_dmac_sleepwalking_sam_l22_xpro" configVersion="1.1" device="ATSAML22N18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -43,7 +43,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -6787,11 +6787,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom4_usart.c</file>
-         <hash>cb99a69e96e5fcf8b95040058f0b07085c2a6df1cda00cb1ad586844e0afd857</hash>
+         <hash>8c128c17accfcbd90bb7f9ff6c3b07f5d93d548d852698b6ba872abc2a7c99cf</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom4_usart.h</file>
-         <hash>0598e49c3250e88afa43611744b0875d84a000623786f63584e2630448631d60</hash>
+         <hash>be8cd2940feb28f5a61b48e614f3d8f9367eb48da752d972639c3f1dba93be1c</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -6819,15 +6819,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\nvic\plib_nvic.c</file>
-         <hash>dd5880bc4467494c1de7021c4c2825afb874c4436380318bc484ebcdd4f215a3</hash>
+         <hash>b358cb54fa0f926660e4c89c28b35ef3a9e8c7ce277b223ceb277ff5bf4ae04f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\adc\plib_adc.c</file>
-         <hash>7c2f2c2586bd7a418112a89be8dd3c27ef5d5b369c6e934987dc53c546542b2c</hash>
+         <hash>98107a7cf8a6d98d6a6a23920eff56c72622d383d91b37453c8df1f9afd7a470</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\port\plib_port.c</file>
-         <hash>102bcf365e0af20f53e8d11d0904a16c7152ca463ac572adf69147ac8ec41d75</hash>
+         <hash>3317ee2cc4d89ba8d17a2b8b641db85d6b1f16756e9cc3f0aef76b4613708547</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\adc\plib_adc.h</file>
@@ -6847,7 +6847,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\definitions.h</file>
-         <hash>febdfc9fd46e62bc291a2ac7b9fc33fccf9ad946b54e166a66727291a1205cd5</hash>
+         <hash>dd94871db23496e7d96932a9b7afd968ff71b27809e65c7c860ddf4bc18b10b8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\ccl.h</file>
@@ -6863,7 +6863,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
+         <hash>63c6e89936ba47e8989478a8be0fa40b406361f2f0dcc1b6cfcd801b50a4bf92</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\tcc0.h</file>
@@ -6891,7 +6891,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -6899,7 +6899,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\stdio\xc32_monitor.c</file>
-         <hash>1bf567a20bc6580ae107c941540ad39512f06a8920790fcdaa6b378a18b1af22</hash>
+         <hash>815a3f1ed82abd0dd0e87e0dcb305eeb2438bf735e545f364e4bba95fa0c008b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\component\sercom.h</file>
@@ -6915,7 +6915,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\component\rstc.h</file>
@@ -7023,7 +7023,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\exceptions.c</file>
-         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
+         <hash>5efbe5a64a17c496d2f5b177bc9cd66a7f0f80323d9558e220c073a13570a2a7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\oscctrl.h</file>
@@ -7055,15 +7055,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\interrupts.c</file>
-         <hash>e95d71b53c35691ec8b6a13036e1e648e09b1a11dbd88dfccdac2d8028f3473b</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML22N18A_DFP\component\ac.h</file>
-         <hash>d59dd9acdb6e820a288b6efee659737055abf228b71a1272f0f922536b598f92</hash>
+         <hash>50f9247738703cebedcf1a284c84d17b55a5c71b2b0a61c06e7e14c593662aad</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\pm\plib_pm.h</file>
          <hash>643429281888e9ac6543abed62f23e4f2a882ef6f2fb4c42ee61af83cc953a22</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML22N18A_DFP\component\ac.h</file>
+         <hash>d59dd9acdb6e820a288b6efee659737055abf228b71a1272f0f922536b598f92</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\sercom4.h</file>
@@ -7087,7 +7087,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\initialization.c</file>
-         <hash>2681230aa5754b10b295c18c97d81897eb0437bd6fec744ea92ff1a325244067</hash>
+         <hash>104b742f0c3daa5f999070563d4228830e39e95faa47ac7f95e1e7bdce1218cb</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\component\port.h</file>
@@ -7115,7 +7115,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>d0cb51cdb15b1a54eb3842f7c3942c83da67c7c689cc7c194aa8e6f2a4e26653</hash>
+         <hash>e6c84ba6d927494c7cdb98103f53b0916b78ebbfb32d0de67f18fbc853a8f869</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\clock\plib_clock.h</file>
@@ -7155,11 +7155,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\dmac\plib_dmac.c</file>
-         <hash>63d6b2b80ebd6eccbd39f6cc751105f0f39f62113ac48904d77fa6de93826fe4</hash>
+         <hash>da73bf05a7f3b7e0c5fcdeb7329f541cc9d278795eff4bbdf8e283d8744bdee9</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>e09bb6405ef87eb1e6df80014ad0182d519cde4571b3527dc961cd1213a597b8</hash>
+         <hash>aa829cf5b14cb5fbcb55a1cc6adbaaf5a5c15c4322173f657eb52e8a65540b0f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\saml22n18a.h</file>
