@@ -78,7 +78,7 @@ static void DFLL_Initialize(void)
     }
 
     /*Load Calibration Value*/
-    uint8_t calibCoarse = (uint8_t)(((*(uint32_t*)0x806020U) >> 26U ) & 0x3fU);
+    uint8_t calibCoarse = (uint8_t)(((*(uint32_t*)0x00806020U) >> 26U ) & 0x3fU);
 
     OSCCTRL_REGS->OSCCTRL_DFLLVAL = OSCCTRL_DFLLVAL_COARSE((uint32_t)calibCoarse) | OSCCTRL_DFLLVAL_FINE(512U);
 
@@ -106,6 +106,7 @@ static void DFLL_Initialize(void)
     {
         /* Waiting for DFLL to fully lock to meet clock accuracy */
     }
+    
 }
 
 static void FDPLL_Initialize(void)
