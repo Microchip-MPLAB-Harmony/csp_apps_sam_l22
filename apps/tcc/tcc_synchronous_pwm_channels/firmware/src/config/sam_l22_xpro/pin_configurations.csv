@@ -1,4 +1,4 @@
-"Pin Number","Pin ID","Custom Name","Function","Mode", "Direction","Latch","Pull Up","Pull Down","Drive Strength"
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
 A1,PA00,,Available,,,,,,NORMAL
 A2,PB00,,Available,,,,,,NORMAL
 A3,PB30,,TCC0_WO0,Digital,High Impedance,n/a,No,No,NORMAL
