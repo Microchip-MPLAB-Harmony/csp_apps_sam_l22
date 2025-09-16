@@ -138,9 +138,20 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="usart_echo_blocking_sam_l22_xpro_sam_l22_xpro" displayName="usart_echo_blocking_sam_l22_xpro_sam_l22_xpro" projectFiles="true">
+        <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/cmsis.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/core.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/dfp.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/evsys.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/pm.yml</itemPath>
+          <itemPath>usart_echo_blocking_sam_l22_xpro_sam_l22_xpro/components/sercom4.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_l22_xpro/harmony-manifest-success.yml</itemPath>
-      <itemPath>usart_echo_blocking_sam_l22_xpro.mc3</itemPath>
       <itemPath>../src/config/sam_l22_xpro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
@@ -204,7 +215,7 @@
         <targetPluginBoard/>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
