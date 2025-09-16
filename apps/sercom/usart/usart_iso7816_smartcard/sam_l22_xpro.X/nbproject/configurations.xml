@@ -1,52 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
+    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_l22_xpro"
-                       displayName="sam_l22_xpro"
-                       projectFiles="true">
-          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="clock" displayName="clock" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/clock/plib_clock.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/evsys/plib_evsys.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/nvic/plib_nvic.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="pm" displayName="pm" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/pm/plib_pm.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="port" displayName="port" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/port/plib_port.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
-              <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom4_usart.h</itemPath>
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom3_usart.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-          <itemPath>../src/config/sam_l22_xpro/device_vectors.h</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/device_cache.h</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/definitions.h</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/interrupts.h</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/device.h</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/toolchain_specifics.h</itemPath>
         </logicalFolder>
-      </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="ATSAML22N18A_DFP"
-                       displayName="ATSAML22N18A_DFP"
-                       projectFiles="true">
+        <logicalFolder name="ATSAML22N18A_DFP" displayName="ATSAML22N18A_DFP" projectFiles="true">
           <logicalFolder name="component" displayName="component" projectFiles="true">
             <itemPath>../src/packs/ATSAML22N18A_DFP/component/rtc.h</itemPath>
             <itemPath>../src/packs/ATSAML22N18A_DFP/component/mtb.h</itemPath>
@@ -144,66 +103,30 @@
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="true">
+    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="sam_l22_xpro" displayName="sam_l22_xpro" projectFiles="true">
+        <itemPath>sam_l22_xpro/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sam_l22_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/core.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/pm.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/sercom3.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/sercom4.yml</itemPath>
+          <itemPath>sam_l22_xpro/components/stdio.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>sam_l22_xpro.mc3</itemPath>
     </logicalFolder>
-    <logicalFolder name="LinkerScript"
-                   displayName="Linker Files"
-                   projectFiles="true">
+    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_l22_xpro"
-                       displayName="sam_l22_xpro"
-                       projectFiles="true">
-          <itemPath>../src/config/sam_l22_xpro/ATSAML22N18A.ld</itemPath>
         </logicalFolder>
-      </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles"
-                   displayName="Source Files"
-                   projectFiles="true">
+    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_l22_xpro"
-                       displayName="sam_l22_xpro"
-                       projectFiles="true">
-          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="clock" displayName="clock" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/clock/plib_clock.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/evsys/plib_evsys.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/nvic/plib_nvic.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="pm" displayName="pm" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/pm/plib_pm.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="port" displayName="port" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/peripheral/port/plib_port.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
-              <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom4_usart.c</itemPath>
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom3_usart.c</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
-            <itemPath>../src/config/sam_l22_xpro/stdio/xc32_monitor.c</itemPath>
-          </logicalFolder>
-          <itemPath>../src/config/sam_l22_xpro/libc_syscalls.c</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/startup_xc32.c</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/exceptions.c</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/interrupts.c</itemPath>
-          <itemPath>../src/config/sam_l22_xpro/initialization.c</itemPath>
         </logicalFolder>
-      </logicalFolder>
       <itemPath>../src/config/sam_l22_xpro/pin_configurations.csv</itemPath>
       <itemPath>../src/main.c</itemPath>
     </logicalFolder>
@@ -214,11 +137,11 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>ATSAML22N18A</targetDevice>
-        <targetHeader></targetHeader>
-        <targetPluginBoard></targetPluginBoard>
+        <targetHeader/>
+        <targetPluginBoard/>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -237,7 +160,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile></alternateLoadableFile>
+          <alternateLoadableFile/>
         </loading>
         <subordinates>
         </subordinates>
@@ -245,9 +168,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPreStep/>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPostStep/>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -261,8 +184,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l22_xpro;../src/packs/ATSAML22N18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories" value="../src;../src/config/sam_l22_xpro;../src/packs/ATSAML22N18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -361,8 +283,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l22_xpro;../src/packs/ATSAML22N18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories" value="../src;../src/config/sam_l22_xpro;../src/packs/ATSAML22N18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
